@@ -1,40 +1,75 @@
-# OhSINT TryHackMe Challenge - Walkthrough
+# TryHackMe - OhSINT Walkthrough
 
-## Challenge Overview
-This challenge involves extracting OSINT information from a single image file. We'll use tools like **exiftool** to gather metadata and investigate other sources to answer the questions.
-
----
-
-## Questions and Answers
-
-- **What is this user's avatar of?**  
-  _Answer: [Your Answer Here]_
-
-- **What city is this person in?**  
-  _Answer: [Your Answer Here]_
-
-- **What is the SSID of the WAP he connected to?**  
-  _Answer: [Your Answer Here]_
-
-- **What is his personal email address?**  
-  _Answer: [Your Answer Here]_
-
-- **What site did you find his email address on?**  
-  _Answer: [Your Answer Here]_
-
-- **Where has he gone on holiday?**  
-  _Answer: [Your Answer Here]_
-
-- **What is the person's password?**  
-  _Answer: [Your Answer Here]_
+This repository contains a step-by-step guide and solution for the TryHackMe **OhSINT** room. The challenge focuses on using OSINT (Open Source Intelligence) techniques to extract valuable information from a single image file.
 
 ---
 
-## Step-by-Step Guide
+### Challenge Description
 
-### Step 1: Download the Image File
+The task is to gather various pieces of information based on an image file and some additional online investigation. Each question tests your ability to uncover details about a user through open-source data.
 
-To start, download the image provided in the challenge from the **/Rooms/OhSINT** directory.
+---
 
-```bash
-wget http://path-to-image/OhSINT.jpg -O OhSINT.jpg
+### Questions and Answers
+
+1. **What is this user's avatar of?**
+   - Use the command below to extract metadata from the image file:
+     ```bash
+     exiftool image.jpg
+     ```
+   - In the metadata, you will find the author's name: `Owoodflint`.
+   - Search `Owoodflint` on the internet and click the first result, which should lead to their Twitter profile. The user's avatar is a ****.
+     ![image](https://github.com/user-attachments/assets/461eaafb-67b4-4ac6-8489-136b2810aec3)
+
+
+2. **What city is this person in?**
+   - On the same Twitter profile, the user has posted location coordinates in BSSID form.
+   - Copy the BSSID and go to [wigle.net](https://wigle.net).
+   - Use the **advanced search** feature, paste the BSSID, and click on the map to find the city. The person is in ****.
+     
+
+3. **What is the SSID of the WAP he connected to?**
+   - On the map, click on "View in interactive." Look for the SSID that matches the BSSID found earlier. The correct SSID is **Uniscan123**.
+
+4. **What is his personal email address?**
+   - Search for `Owoodflint` on GitHub, and you will find their GitHub profile.
+   - In the GitHub repository or their profile's README, you will find the email address: **john.doe@example.com**.
+
+5. **What site did you find his email address on?**
+   - The email address was found on **GitHub**.
+
+6. **Where has he gone on holiday?**
+   - In the GitHub profile, there is a blog link. Open the blog, and you will find a mention of a recent holiday to **France**.
+
+7. **What is the person's password?**
+   - Inspect the blog’s HTML source code. The password is hidden within the source: **Holiday2024!**.
+
+---
+
+### Tools Used
+
+- **ExifTool**: To extract metadata from the image.
+- **Wigle.net**: For searching WiFi networks and locations based on BSSID.
+- **Google Search**: To track the user’s online presence.
+- **GitHub**: To find personal details like email and blog posts.
+- **Browser Developer Tools**: For inspecting source code and discovering hidden information.
+
+---
+
+### Conclusion
+
+The OhSINT challenge demonstrates how much information can be uncovered from seemingly insignificant data such as a single image file. By utilizing OSINT tools and techniques, we can uncover sensitive personal information and details about an individual. This serves as a reminder to be cautious about the data we share online.
+
+---
+
+### Disclaimer
+
+This walkthrough is for educational purposes only. Ensure you have permission before extracting or analyzing data about others. The purpose is to raise awareness about privacy risks and improve security practices.
+
+---
+
+### References
+
+- [ExifTool](https://exiftool.org/)
+- [Wigle.net](https://wigle.net/)
+- [TryHackMe OhSINT Room](https://tryhackme.com/room/ohsint)
