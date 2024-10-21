@@ -26,23 +26,25 @@ The task is to gather various pieces of information based on an image file and s
    - On the same Twitter profile, the user has posted location coordinates in BSSID form.
    - Copy the BSSID and go to [wigle.net](https://wigle.net).
    - Use the **advanced search** feature, paste the BSSID, and click on the map to find the city. The person is in ****.
-     
+     ![image](https://github.com/user-attachments/assets/53a86bee-8659-41b3-a2a6-737874eac209)  
 
 3. **What is the SSID of the WAP he connected to?**
-   - On the map, click on "View in interactive." Look for the SSID that matches the BSSID found earlier. The correct SSID is **Uniscan123**.
+   - On the map, click on "View in interactive." Look for the SSID that matches the BSSID found earlier. The correct SSID is **uniliver-related**.
 
 4. **What is his personal email address?**
    - Search for `Owoodflint` on GitHub, and you will find their GitHub profile.
-   - In the GitHub repository or their profile's README, you will find the email address: **john.doe@example.com**.
+   - In the GitHub repository or their profile's README, you will find the email address: ****.
+  ![image](https://github.com/user-attachments/assets/1b6956b1-9d41-4deb-b170-d4e2cb4867f1)
 
 5. **What site did you find his email address on?**
-   - The email address was found on **GitHub**.
+   - The email address was found on ****.
+   - Use your thinking.
 
 6. **Where has he gone on holiday?**
-   - In the GitHub profile, there is a blog link. Open the blog, and you will find a mention of a recent holiday to **France**.
+   - In the GitHub profile, there is a blog link. Open the blog, and you will find a mention of a recent holiday to ****.
 
 7. **What is the person's password?**
-   - Inspect the blog’s HTML source code. The password is hidden within the source: **Holiday2024!**.
+   - Inspect the blog’s HTML source code. The password is hidden within the source: ****.
 
 ---
 
