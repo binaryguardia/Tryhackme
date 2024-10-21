@@ -45,6 +45,7 @@ The task is to gather various pieces of information based on an image file and s
 
 7. **What is the person's password?**
    - Inspect the blog’s HTML source code. The password is hidden within the source: ****.
+![image](https://github.com/user-attachments/assets/c3c9d254-3ff3-4957-afd4-432da1eb5ee9)
 
 ---
 
