@@ -45,7 +45,14 @@ check for the file named like clean system
 
 11. Compromise Date:
     - Format: MM/DD/YYYY.
-    -  -  use this [reference](https://medium.com/@haircutfish/tryhackme-investigating-windows-task-1-investigating-windows-da65f32cf67f)
+    -  use this [reference](https://medium.com/@haircutfish/tryhackme-investigating-windows-task-1-investigating-windows-da65f32cf67f)
+ use this path :C:\TMP
+![null](https://github.com/user-attachments/assets/c4365f24-c95b-4e12-acc9-a63da11359a9)
+
+
+12. Time of First Privilege Assignment (Compromise):
+    - Format: MM/DD/YYYY HH:MM:SS AM/PM.
+  -  use this [reference](https://medium.com/@haircutfish/tryhackme-investigating-windows-task-1-investigating-windows-da65f32cf67f)
 
 ![Screenshot at 2024-11-28 23-58-06](https://github.com/user-attachments/assets/975e687c-a1e7-4b1c-931c-e1e93e59d928)
 ![Screenshot at 2024-11-29 00-01-22](https://github.com/user-attachments/assets/a6d5d37f-5421-4955-9e22-16cfb32f25d6)
@@ -54,20 +61,28 @@ check for the file named like clean system
 ![Screenshot at 2024-11-29 00-03-22](https://github.com/user-attachments/assets/c5a4e7cf-db82-4dff-8a2a-48c70088e8c3)
 ![Screenshot at 2024-11-29 00-14-14](https://github.com/user-attachments/assets/81426851-934e-4038-b644-7cf631652d36)
 
-12. Time of First Privilege Assignment (Compromise):
-    - Format: MM/DD/YYYY HH:MM:SS AM/PM.
-
 13. Tool for Password Extraction:
     - Inspect processes, file artifacts, or Event Logs.
+    - use this path : C:\TMP
+    - ![Screenshot at 2024-11-29 00-23-18](https://github.com/user-attachments/assets/bfa3cfdd-0ba1-4b17-931d-37be88094c40)
+
 
 14. C2 Server IP:
     - Analyze network traffic or logs.
+      use path : C:\Windows\System32\drivers\etc
+    - ![Screenshot at 2024-11-29 00-33-45](https://github.com/user-attachments/assets/fdb7c962-e7f4-4796-9ebf-cb83c2724d13)
+
 
 15. Shell Extension Name:
-    - Check uploaded files or Event Logs.
+    - Check uploaded files or  Event Logs.
+      use path :C:\inetpub\wwwroot
+    - ![Screenshot at 2024-11-29 00-37-11](https://github.com/user-attachments/assets/67765a6d-7693-47cf-b8d4-d92c6d8db7e9)
+
 
 16. Last Opened Port:
     - Analyze firewall or connection logs.
-
+   ANS : port 1337
 17. DNS Poisoning Target:
-    - Inspect the hosts file or DNS settings.
+    - Use this path :
+  use path : C:\Windows\System32\drivers\etc
+    - ![Screenshot at 2024-11-29 00-33-45](https://github.com/user-attachments/assets/fdb7c962-e7f4-4796-9ebf-cb83c2724d13)
