@@ -1,6 +1,8 @@
-# Windows Investigation Room Guide
+# [Windows Investigation Room](https://tryhackme.com/r/room/investigatingwindows) Guide
+ Use the powershell for running the commands
+ use can use this for [reference](https://medium.com/@haircutfish/tryhackme-investigating-windows-task-1-investigating-windows-da65f32cf67f) 
 
-Investigation Questions:
+## Investigation Questions:
 
 1. Windows Version and Year: 
    use command :
