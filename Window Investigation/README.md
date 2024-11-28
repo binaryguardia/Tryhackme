@@ -31,7 +31,7 @@
        Get-Scheduled givTask | Select TaskName, State, Actions, Description | Format-Table -AutoSize
 check for the file named like clean system
 
-11. Daily Run File (Task):
+10. Daily Run File (Task):
  Command :
  
         $task = Get-ScheduledTask | Where TaskName -EQ “Clean file system”
@@ -40,19 +40,21 @@ check for the file named like clean system
 11. Listening Port (File):
  use this [reference](https://medium.com/@haircutfish/tryhackme-investigating-windows-task-1-investigating-windows-da65f32cf67f)
 
-11. Last Login Time of Jenny:
+12. Last Login Time of Jenny:
   Command :
 
         net user jenny
 
-11. Compromise Date:
+13. Compromise Date:
     - Format: MM/DD/YYYY.
     -  use this [reference](https://medium.com/@haircutfish/tryhackme-investigating-windows-task-1-investigating-windows-da65f32cf67f)
- use this path :C:\TMP
+      
+ use this path :C:/
+
 ![null](https://github.com/user-attachments/assets/c4365f24-c95b-4e12-acc9-a63da11359a9)
 
 
-12. Time of First Privilege Assignment (Compromise):
+14. Time of First Privilege Assignment (Compromise):
     - Format: MM/DD/YYYY HH:MM:SS AM/PM.
   -  use this [reference](https://medium.com/@haircutfish/tryhackme-investigating-windows-task-1-investigating-windows-da65f32cf67f)
 
@@ -63,28 +65,28 @@ check for the file named like clean system
 ![Screenshot at 2024-11-29 00-03-22](https://github.com/user-attachments/assets/c5a4e7cf-db82-4dff-8a2a-48c70088e8c3)
 ![Screenshot at 2024-11-29 00-14-14](https://github.com/user-attachments/assets/81426851-934e-4038-b644-7cf631652d36)
 
-13. Tool for Password Extraction:
+15. Tool for Password Extraction:
     - Inspect processes, file artifacts, or Event Logs.
     - use this path : C:\TMP
     - ![Screenshot at 2024-11-29 00-23-18](https://github.com/user-attachments/assets/bfa3cfdd-0ba1-4b17-931d-37be88094c40)
 
 
-14. C2 Server IP:
+16. C2 Server IP:
     - Analyze network traffic or logs.
       use path : C:\Windows\System32\drivers\etc
     - ![Screenshot at 2024-11-29 00-33-45](https://github.com/user-attachments/assets/fdb7c962-e7f4-4796-9ebf-cb83c2724d13)
 
 
-15. Shell Extension Name:
+17. Shell Extension Name:
     - Check uploaded files or  Event Logs.
       use path :C:\inetpub\wwwroot
     - ![Screenshot at 2024-11-29 00-37-11](https://github.com/user-attachments/assets/67765a6d-7693-47cf-b8d4-d92c6d8db7e9)
 
 
-16. Last Opened Port:
+18. Last Opened Port:
     - Analyze firewall or connection logs.
    ANS : port 1337
-17. DNS Poisoning Target:
+19. DNS Poisoning Target:
     - Use this path :
   use path : C:\Windows\System32\drivers\etc
     - ![Screenshot at 2024-11-29 00-33-45](https://github.com/user-attachments/assets/fdb7c962-e7f4-4796-9ebf-cb83c2724d13)
