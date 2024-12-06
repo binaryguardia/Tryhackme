@@ -1,7 +1,10 @@
 # Hack The Future (2nd)
 
 ## Overview
-**Hack The Future (2nd)** is a TryHackMe challenge room designed exclusively for students in their 2nd year or above. All necessary tools, such as Kali Linux and the Metasploit framework, should already be installed on participants' systems. 
+**Hack The Future (2nd)** is a TryHackMe challenge room designed exclusively for students in their 2nd year or above.
+This is mainly made for the mini cyberthon event in (Lamrin Tech Skills University Punjab)[ltsu.ac.in] by (Team Cyber Swipe)[cyberswipe.in] so details and questions are given accordinlgy.
+
+ All necessary tools, such as Kali Linux and the Metasploit framework, should already be installed on participants' systems. 
 
 If you encounter any issues, feel free to reach out to the organizing team, **Cyber Swipe**. Internet usage is permitted, and with focus, the challenge can be completed swiftly.
 
@@ -56,11 +59,8 @@ If you encounter any issues, feel free to reach out to the organizing team, **Cy
 ---
 
 ## Room Details
-- **Created by:** [onlyneer4j](#)
+- **Created by:** [onlyneer4j](https://github.com/binaryguardia)
 - **Room Type:** Free Room – anyone can deploy virtual machines without a subscription!
-- **Users in Room:** 21
-- **Created:** 4 days ago
-
 ---
 
 ## How to Participate
