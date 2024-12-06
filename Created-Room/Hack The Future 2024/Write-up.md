@@ -2,7 +2,7 @@
 
 ## Overview
 **Hack The Future (2nd)** is a TryHackMe challenge room designed exclusively for students in their 2nd year or above.
-This is mainly made for the mini cyberthon event in [Lamrin Tech Skills University Punjab](https://ltsu.ac.in) by [Team Cyber Swipe](cyberswipe.in) so details and questions are given accordinlgy.
+This is mainly made for the mini cyberthon event in [Lamrin Tech Skills University Punjab](https://ltsu.ac.in) by [Team Cyber Swipe](https://cyberswipe.in) so details and questions are given accordinlgy.
 
  All necessary tools, such as Kali Linux and the Metasploit framework, should already be installed on participants' systems. 
 
